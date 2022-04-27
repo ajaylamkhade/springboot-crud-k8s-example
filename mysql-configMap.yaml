@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config # you can use any name
+data:
+  host: mysql
+  dbName: javatechie
